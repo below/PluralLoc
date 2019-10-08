@@ -8,12 +8,10 @@
 
 import XCTest
 
-class RussianTest: XCTestCase {
+class RussianTest: BaseLanguageTest {
 
-    var languageBundle: Bundle!
     override func setUp() {
-        let path = Bundle.main.path(forResource: "ru", ofType: "lproj")!
-        languageBundle = Bundle(path: path)
+        setUp(language: "ru")
     }
 
     func bottlePlural(bottles i: Int) -> String {
@@ -38,12 +36,11 @@ class RussianTest: XCTestCase {
         let word = bottlePlural(bottles: i)
         let expect = "\(i)\(word) пива"
         
-        let format = languageBundle.localizedString(forKey: "bottlesOfBeer", value: nil, table: nil)
-        let actual = String(format:format, i)
+        let actual = localizedString(cardinal: i)
         XCTAssertEqual(expect, actual)
     }
     
-    func testExample() {
+    func testSimple() {
         let i = 15
         
         cardinalTest(value: i)

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CB089EA8234D2B6A00B63332 /* RussianTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB089EA7234D2B6A00B63332 /* RussianTest.swift */; };
+		CB089EAA234D35F200B63332 /* BaseLanguageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB089EA9234D35F200B63332 /* BaseLanguageTest.swift */; };
+		CB089EAC234D379700B63332 /* EnglishTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB089EAB234D379700B63332 /* EnglishTest.swift */; };
+		CB089EAE234D38A600B63332 /* GermanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB089EAD234D38A600B63332 /* GermanTest.swift */; };
 		CB0B38F4234C8137005BD488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B38F3234C8137005BD488 /* AppDelegate.swift */; };
 		CB0B38F6234C8137005BD488 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0B38F5234C8137005BD488 /* ViewController.swift */; };
 		CB0B38F9234C8137005BD488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0B38F7234C8137005BD488 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 		CB089E9D234D2B2B00B63332 /* Plural LocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plural LocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB089EA1234D2B2B00B63332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB089EA7234D2B6A00B63332 /* RussianTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianTest.swift; sourceTree = "<group>"; };
+		CB089EA9234D35F200B63332 /* BaseLanguageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLanguageTest.swift; sourceTree = "<group>"; };
+		CB089EAB234D379700B63332 /* EnglishTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishTest.swift; sourceTree = "<group>"; };
+		CB089EAD234D38A600B63332 /* GermanTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanTest.swift; sourceTree = "<group>"; };
 		CB0B38F0234C8137005BD488 /* Plural Loc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plural Loc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0B38F3234C8137005BD488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB0B38F5234C8137005BD488 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +73,10 @@
 		CB089E9E234D2B2B00B63332 /* Plural LocTests */ = {
 			isa = PBXGroup;
 			children = (
+				CB089EA9234D35F200B63332 /* BaseLanguageTest.swift */,
 				CB089EA7234D2B6A00B63332 /* RussianTest.swift */,
+				CB089EAB234D379700B63332 /* EnglishTest.swift */,
+				CB089EAD234D38A600B63332 /* GermanTest.swift */,
 				CB089EA1234D2B2B00B63332 /* Info.plist */,
 			);
 			path = "Plural LocTests";
@@ -213,6 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB089EAC234D379700B63332 /* EnglishTest.swift in Sources */,
+				CB089EAE234D38A600B63332 /* GermanTest.swift in Sources */,
+				CB089EAA234D35F200B63332 /* BaseLanguageTest.swift in Sources */,
 				CB089EA8234D2B6A00B63332 /* RussianTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
