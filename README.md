@@ -11,7 +11,8 @@ if number > 1 {
 	// use plural
 } else {
 	// use singular
-}```
+}
+```
 
 **Don't do that**
 
