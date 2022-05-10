@@ -17,6 +17,7 @@
 		CB0B38FB234C813B005BD488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0B38FA234C813B005BD488 /* Assets.xcassets */; };
 		CB0B38FE234C813B005BD488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0B38FC234C813B005BD488 /* LaunchScreen.storyboard */; };
 		CB0B3907234C8346005BD488 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = CB0B3909234C8346005BD488 /* Localizable.stringsdict */; };
+		CEA65C31282A581F0099B6A4 /* UkrainianTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA65C30282A581F0099B6A4 /* UkrainianTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		CB0B390C234C8451005BD488 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = fr; path = fr.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		CB6B6E76282A46F9000B62F5 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = uk; path = uk.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		CBE64861234DCA3900721FA8 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ro; path = ro.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		CEA65C30282A581F0099B6A4 /* UkrainianTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkrainianTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				CB089EAB234D379700B63332 /* EnglishTest.swift */,
 				CB089EAD234D38A600B63332 /* GermanTest.swift */,
 				CB089EA1234D2B2B00B63332 /* Info.plist */,
+				CEA65C30282A581F0099B6A4 /* UkrainianTest.swift */,
 			);
 			path = "Plural LocTests";
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA65C31282A581F0099B6A4 /* UkrainianTest.swift in Sources */,
 				CB089EAC234D379700B63332 /* EnglishTest.swift in Sources */,
 				CB089EAE234D38A600B63332 /* GermanTest.swift in Sources */,
 				CB089EAA234D35F200B63332 /* BaseLanguageTest.swift in Sources */,

@@ -1,31 +1,31 @@
 //
-//  RussianTest.swift
+//  UkrainianTest.swift
 //  Plural LocTests
 //
-//  Created by Alexander v. Below on 08.10.19.
-//  Copyright © 2019 Alexander von Below. All rights reserved.
+//  Created by Andrii Zakharchenko on 10.05.2022.
+//  Copyright © 2022 Alexander von Below. All rights reserved.
 //
 
 import XCTest
 
-class RussianTest: BaseLanguageTest {
+class UkrainianTest: BaseLanguageTest {
 
     override func setUp() {
-        setUp(language: "ru")
+        setUp(language: "uk")
     }
 
     func bottlePlural(bottles i: Int) -> String {
         var word: String!
         if i >= 11, i <= 19  {
-            word = " бутылок"
+            word = " пляшок"
         } else {
             switch i % 10 {
                 case 1:
-                    word = " бутылка"
+                    word = " пляшка"
                 case 2, 3, 4:
-                    word = " бутылки"
+                    word = " пляшки"
                 default:
-                    word = " бутылок"
+                    word = " пляшок"
                 }
         }
         return word
