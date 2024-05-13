@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let format = NSLocalizedString("bottlesOfBeer", comment: "")
+    let format = NSLocalizedString("%lld bottles of beer", comment: "")
 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var textView: UITextView!
@@ -41,3 +41,6 @@ class ViewController: UIViewController {
     
 }
 
+#Preview {
+    return ViewController()
+}
