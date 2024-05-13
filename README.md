@@ -20,5 +20,8 @@ I am not sure if it was correct for the native language of the developer, it is 
 
 The only languages I am sure about though are German and English. And Russian. Feel free to check or add more languages.
 
+## Update
+
+I have moved to String Catalogs and SwiftUI for this project
 
 P.S.: The Swift Playground contains the swift version of the "99 Bottles Of Beer" algorithm in Russian
