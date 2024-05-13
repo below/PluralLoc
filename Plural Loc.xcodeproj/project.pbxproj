@@ -17,6 +17,7 @@
 		CB0B38FB234C813B005BD488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0B38FA234C813B005BD488 /* Assets.xcassets */; };
 		CB0B38FE234C813B005BD488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0B38FC234C813B005BD488 /* LaunchScreen.storyboard */; };
 		CB3EE99F2BF215B8005B31EE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CB3EE99E2BF215B8005B31EE /* Localizable.xcstrings */; };
+		CB3EE9C22BF24378005B31EE /* PluralLocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EE9C12BF24378005B31EE /* PluralLocView.swift */; };
 		CEA65C31282A581F0099B6A4 /* UkrainianTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA65C30282A581F0099B6A4 /* UkrainianTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		CB0B38FD234C813B005BD488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB0B38FF234C813B005BD488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB3EE99E2BF215B8005B31EE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		CB3EE9C12BF24378005B31EE /* PluralLocView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluralLocView.swift; sourceTree = "<group>"; };
 		CEA65C30282A581F0099B6A4 /* UkrainianTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkrainianTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				CB0B38F3234C8137005BD488 /* AppDelegate.swift */,
 				CB0B38F5234C8137005BD488 /* ViewController.swift */,
+				CB3EE9C12BF24378005B31EE /* PluralLocView.swift */,
 				CB0B38F7234C8137005BD488 /* Main.storyboard */,
 				CB0B38FA234C813B005BD488 /* Assets.xcassets */,
 				CB0B38FC234C813B005BD488 /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			files = (
 				CB0B38F6234C8137005BD488 /* ViewController.swift in Sources */,
 				CB0B38F4234C8137005BD488 /* AppDelegate.swift in Sources */,
+				CB3EE9C22BF24378005B31EE /* PluralLocView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
