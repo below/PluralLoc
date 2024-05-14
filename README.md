@@ -1,5 +1,5 @@
 # PluralLoc
-A Sample for stringsdict. And "99 Bottles of Beer on the Wall" in Russian.
+A Sample on how to localize plural strings in iOS. And "99 Bottles of Beer on the Wall" in Russian.
 
 
 ## Background
@@ -18,10 +18,19 @@ if number > 1 {
 
 I am not sure if it was correct for the native language of the developer, it is worng in most languages. But to the rescue, Apple provides a system to localize your plural forms, and this project is a sample for it.
 
-The only languages I am sure about though are German and English. And Russian. Feel free to check or add more languages.
+## Supported Languages
 
-## Update
+Currently, the following languages have been [implemented](Plural%20Loc/Localizable.xcstrings):
 
-I have moved to String Catalogs and SwiftUI for this project
+- [x] Chinese (simplified)
+- [x] English
+- [x] French
+- [x] German
+- [x] Polish
+- [x] Romanian
+- [x] Russian
+- [x] Ukrainian
+
+You are more than welcome to create a pull request for your language.
 
 P.S.: The Swift Playground contains the swift version of the "99 Bottles Of Beer" algorithm in Russian
