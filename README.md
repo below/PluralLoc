@@ -23,6 +23,7 @@ Currently, the following languages have been [implemented](Plural%20Loc/Localiza
 
 - [x] Chinese (simplified)
 - [x] English
+- [x] Dutch
 - [x] French
 - [x] German
 - [x] Polish
