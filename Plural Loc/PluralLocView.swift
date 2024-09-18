@@ -51,3 +51,7 @@ struct PluralLocView: View {
         .environment(\.locale, .init(identifier: "zh-Hans"))
 }
 
+#Preview("Dutch") {
+    PluralLocView()
+        .environment(\.locale, .init(identifier: "nl"))
+}

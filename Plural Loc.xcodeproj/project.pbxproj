@@ -181,6 +181,7 @@
 				ru,
 				ro,
 				uk,
+				nl,
 			);
 			mainGroup = CB0B38E7234C8137005BD488;
 			productRefGroup = CB0B38F1234C8137005BD488 /* Products */;
