@@ -18,6 +18,7 @@ struct PluralLocView: View {
             ScrollView {
                 ForEach(0...30, id:\.self) { index in
                     Text("\(index) bottles of beer")
+                        .selectionDisabled(false)
                 }
             }
             Stepper(
