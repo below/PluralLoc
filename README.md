@@ -26,6 +26,7 @@ Currently, the following languages have been [implemented](Plural%20Loc/Localiza
 - [x] Dutch
 - [x] French
 - [x] German
+- [x] Hungarian
 - [x] Polish
 - [x] Romanian
 - [x] Russian

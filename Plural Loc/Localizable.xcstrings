@@ -63,6 +63,18 @@
             }
           }
         },
+        "hu" : {
+            "variations" : {
+              "plural" : {
+                "other" : {
+                  "stringUnit" : {
+                    "state" : "translated",
+                    "value" : "%d üveg sör"
+                  }
+                }
+              }
+            }
+          },
         "nl" : {
           "variations" : {
             "plural" : {
