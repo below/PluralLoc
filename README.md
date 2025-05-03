@@ -32,6 +32,7 @@ Currently, the following languages have been [implemented](Plural%20Loc/Localiza
 - [x] Russian
 - [x] Ukrainian
 - [x] Bulgarian
+- [x] Scottish Gaelic
 
 You are more than welcome to create a pull request for your language.
 
