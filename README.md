@@ -21,18 +21,18 @@ I am not sure if it was correct for the native language of the developer, it is 
 
 Currently, the following languages have been [implemented](Plural%20Loc/Localizable.xcstrings):
 
+- [x] Bulgarian
 - [x] Chinese (simplified)
-- [x] English
 - [x] Dutch
+- [x] English
 - [x] French
 - [x] German
 - [x] Hungarian
 - [x] Polish
 - [x] Romanian
 - [x] Russian
-- [x] Ukrainian
-- [x] Bulgarian
 - [x] Scottish Gaelic
+- [x] Ukrainian
 
 You are more than welcome to create a pull request for your language.
 
