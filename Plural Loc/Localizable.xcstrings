@@ -81,6 +81,36 @@
             }
           }
         },
+        "gd" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d bhotal-lionna"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d bhotal-lionna"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d botail-lionna"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%d botal-lionna"
+                }
+              }
+            }
+          }
+        },
         "hu" : {
             "variations" : {
               "plural" : {
