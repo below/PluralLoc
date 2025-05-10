@@ -3,6 +3,48 @@
   "strings" : {
     "%lld bottles of beer" : {
       "localizations" : {
+          "ar" : {
+            "variations" : {
+              "plural" : {
+                "few" : {
+                  "stringUnit" : {
+                    "state" : "translated",
+                    "value" : "%d زجاجات بيرة "
+                  }
+                },
+                "many" : {
+                  "stringUnit" : {
+                    "state" : "translated",
+                    "value" : "%d زجاجة بيرة"
+                  }
+                },
+                "one" : {
+                  "stringUnit" : {
+                    "state" : "translated",
+                    "value" : "زجاجة بيرة"
+                  }
+                },
+                "other" : {
+                  "stringUnit" : {
+                    "state" : "translated",
+                    "value" : "%d زجاجة بيرة"
+                  }
+                },
+                "two" : {
+                  "stringUnit" : {
+                    "state" : "translated",
+                    "value" : "زجاجتا بيرة"
+                  }
+                },
+                "zero" : {
+                  "stringUnit" : {
+                    "state" : "translated",
+                    "value" : "%d زجاجة بيرة"
+                  }
+                }
+              }
+            }
+          },
         "bg" : {
           "variations" : {
             "plural" : {
