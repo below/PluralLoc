@@ -21,6 +21,7 @@ I am not sure if it was correct for the native language of the developer, it is 
 
 Currently, the following languages have been [implemented](Plural%20Loc/Localizable.xcstrings):
 
+- [x] Arabic
 - [x] Bulgarian
 - [x] Chinese (simplified)
 - [x] Dutch
